@@ -1,0 +1,12 @@
+language: ruby
+sudo: false
+before_install:
+  - bundle update
+rvm:
+  - 2.1
+  - 2.2
+  - 2.3.0
+  - ruby-head
+matrix:
+  allow_failures:
+    - rvm: ruby-head
