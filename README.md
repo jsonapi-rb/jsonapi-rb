@@ -20,9 +20,10 @@ or manually via
 $ gem install jsonapi-rb
 ```
 
-## Usage
 
-See [jsonapi-rb.org](http://jsonapi-rb.org).
+## Usage and documentation
+
+See [jsonapi-rb.org/guides](http://jsonapi-rb.org/guides).
 
 ## License
 
