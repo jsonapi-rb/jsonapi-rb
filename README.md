@@ -6,6 +6,12 @@ Ruby gem for building and consuming [JSON API](http://jsonapi.org) documents.
 [![Gem Version](https://badge.fury.io/rb/jsonapi-rb.svg)](https://badge.fury.io/rb/jsonapi-rb)
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/jsonapi-rb/Lobby)
 
+## Code
+
+jsonapi-rb is simply a bundle of:
+* [jsonapi-serializable](https://github.com/jsonapi-rb/jsonapi-serializable) for serialization, and
+* [jsonapi-deserializable](https://github.com/jsonapi-rb/jsonapi-deserializable) for deserialization.
+
 ## Installation
 ```ruby
 # In Gemfile
