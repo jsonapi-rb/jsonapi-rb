@@ -12,6 +12,11 @@ jsonapi-rb is simply a bundle of:
 * [jsonapi-serializable](https://github.com/jsonapi-rb/jsonapi-serializable) for serialization, and
 * [jsonapi-deserializable](https://github.com/jsonapi-rb/jsonapi-deserializable) for deserialization.
 
+For framework integrations, see:
+* [jsonapi-hanami](https://github.com/jsonapi-rb/jsonapi-hanami) for [Hanami](http://hanamirb.org), and
+* [jsonapi-rails](https://github.com/jsonapi-rb/jsonapi-rails) for [Ruby on Rails](http://rubyonrails.org).
+
+
 ## Installation
 ```ruby
 # In Gemfile
