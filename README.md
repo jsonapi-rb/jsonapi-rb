@@ -44,4 +44,4 @@ See [jsonapi-rb.org/guides](http://jsonapi-rb.org/guides).
 
 ## License
 
-jsonapi-serializable is released under the [MIT License](http://www.opensource.org/licenses/MIT).
+jsonapi-rb is released under the [MIT License](http://www.opensource.org/licenses/MIT).
