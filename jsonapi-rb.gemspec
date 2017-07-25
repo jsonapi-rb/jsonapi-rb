@@ -14,5 +14,5 @@ Gem::Specification.new do |spec|
   spec.require_path  = 'lib'
 
   spec.add_dependency 'jsonapi-serializable',   '~> 0.2.1'
-  spec.add_dependency 'jsonapi-deserializable', '~> 0.1.0'
+  spec.add_dependency 'jsonapi-deserializable', '~> 0.2.0'
 end
