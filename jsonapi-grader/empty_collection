@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require 'json'
+require 'jsonapi/serializable'
+
+renderer = JSONAPI::Serializable::SuccessRenderer.new
+hash = renderer.render([])
+puts hash.to_json
