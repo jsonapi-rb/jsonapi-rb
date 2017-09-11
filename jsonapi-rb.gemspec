@@ -13,6 +13,6 @@ Gem::Specification.new do |spec|
   spec.files         = Dir['README.md', 'lib/**/*']
   spec.require_path  = 'lib'
 
-  spec.add_dependency 'jsonapi-serializable',   '~> 0.2.1'
+  spec.add_dependency 'jsonapi-serializable',   '~> 0.3.0'
   spec.add_dependency 'jsonapi-deserializable', '~> 0.2.0'
 end
