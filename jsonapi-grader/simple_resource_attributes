@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+
+require 'json'
+require 'jsonapi/serializable'
+
+class SerializableArticle < JSONAPI::Serializable::Resource
+  type :articles
+
+  attributes :title, :content
+end
+
+class Article < OpenStruct; end
+
+article = Article.new(id: 1, title: 'json:api', content: 'I love it.')
+
+renderer = JSONAPI::Serializable::SuccessRenderer.new
+hash = renderer.render(article)
+puts hash.to_json
